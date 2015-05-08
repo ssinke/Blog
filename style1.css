@@ -1,0 +1,375 @@
+  *{
+    margin:0px;
+    padding:0px}
+  header, footer,section,nav{
+    display:blocks}
+  @font-face
+  {
+    font-family: chandy;
+    src: url('CAC Champagne.ttf') format("opentype");
+    
+  }
+  body{
+    background:#EDEDED !important;
+  }
+  .container{
+    margin:0 auto;
+    width:950px;
+    font-family:arial;
+    margin-top:20px}
+  h1, h2 {
+    color: #333;
+    font-family: Helvetica,Arial;
+    font-weight: bold;
+    line-height: 1.1em;
+    padding-bottom: 5px;
+    margin-top: 4px;
+    text-shadow: 0 1px 0 #FFF;
+    font-size: 28px;
+  }
+  
+  h2 a{
+    color: #333;
+    text-decoration:none;
+	
+  }
+  h2 a:hover{
+    color: #81c3de;
+    text-decoration:none;
+  }
+  
+  #Logo{
+    color: #2F5286;
+    font: 80px/100px Garamond, 'Hoefler Text', Times New Roman, Times, serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 #B6B6B6, 
+      0 2px 0 #B6B6B6, 
+      0 3px 0 #B6B6B6, 
+      0 4px 0 #B6B6B6, 
+      0 5px 0 #B6B6B6,
+      0 6px 0 black;
+    
+  }
+  #Logo:hover{
+    text-shadow: 0 1px 0 #81c3de, 
+      0 2px 0 #81c3de, 
+      0 3px 0 #81c3de, 
+      0 4px 0 #81c3de, 
+      0 5px 0 #81c3de,
+      0 6px 0 black;
+  }
+  
+  .fix-nav{
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+	margin-top: 0px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+  }
+  
+  .zaobljenaIvica{
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+  }
+  
+  .senkaKutije{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  }
+  
+  .slikePocetna{
+	margin-right: 11px;
+	padding: 5px;
+	border: 1px solid #D5D5D5;
+  }
+  .banner{
+    margin-top: 26px;
+  }
+  .widget{
+	margin: auto;
+	width: 299px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+  }
+  .clearBr{
+	margin: auto;
+	border-bottom-color: lightgray;
+	width: 90%;
+	clear: both;
+	border-bottom-style: solid;
+	height: 3px;
+  }
+  .text{
+	margin: 26px;
+	text-align: justify;
+  }
+  #main, #header, #nav
+  {
+    overflow:auto;
+  }
+  #nav{
+    background-color:#2F5286}
+  
+  #footer
+  {
+    background-color: #2F5286;
+    border-radius: 6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+    padding: 20px 0 20px 0;
+    color: #8f9396;
+    height: 288px;
+    width:950px;
+    margin:auto;
+    
+  }
+  #footer p
+  {
+	text-align: right;
+	padding: 12px 20px 4px 0px;
+	font-family: chandy;
+	font-size: 29px;
+  }
+  .shell {
+    width:950px;
+    margin: auto;
+  }
+  .cl {
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
+    height: 0;
+  }
+  h5 {
+    font-size: 21px;
+    line-height: 21px;
+    color: white;
+    margin-bottom: 7px;
+    font-weight: normal;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+  }
+  #footer a {
+    color: #8f9396;
+    text-decoration: none;
+  }
+  
+  #footer .col {
+    float: left;
+    display: inline;
+    margin-right: 30px;
+    width: 222px;
+  }
+  #footer .col-first{
+    margin-left: 87px;
+  }
+  #footer .col-last {
+    margin-right: 0;
+    float: right;
+  }
+  #footer ul {
+    list-style-type: none;
+  }
+  #footer ul li {
+    line-height: 30px;
+  }
+  
+  
+  #content
+  {
+    float:left;
+    width:600px;
+    
+  }
+  #content article
+  {
+    margin: 2px;
+    background:white;
+    margin-bottom:20px;
+    padding-bottom: 28px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  }
+  
+  #content article h2{
+    font-size: 43px;
+	font-family: chandy;
+	padding: 10px;
+  }
+  #content article p {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .container_one{
+	margin: 12px;
+  }
+  .clanak{
+	background: white;
+  }
+  
+  #sidebar
+  {
+    margin: 4px;
+    float:right;
+    width:330px;
+    background-color:white;
+    min-height:400px;
+    text-align:center;
+  }
+  
+  #nav
+  {
+    overflow:auto;
+  }
+  #nav ul
+  {
+    width:747px;
+    list-style:none;
+    height:30px;
+    padding:0px;
+    margin:auto;
+  }
+  #nav ul li
+  {
+    float:left;
+    
+    font-size:12px;
+    font-weight:bold;
+  }
+  
+  
+  #nav ul li a
+  {
+    color:#ffffff;
+    text-decoration:none;
+    display:block;
+    padding:12px;
+    text-align:center;
+    min-width:100px;
+  }
+  #nav ul li a:hover
+  {
+    
+	background-color:#81c3de;
+	color:#333333;
+  }
+  
+  #logo
+  {
+	margin:10px;
+  }
+  
+  table#tabela, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  .prvaKolona{
+	border-right: solid;
+  }
+  
+  #ads
+  {
+	text-align:center;
+  }
+  
+  .subscribe {
+    padding: 20px;
+    width: 300px;
+    background: white;
+    border-radius: 5px;
+    @include box-shadow(0 1px 2px rgba(black, .5));
+  }
+  
+  .subscribe-pitch{
+    padding-left: 120px;
+    background: url('http://s3.cssflow.com/snippets/33-newsletter-form/img/email.png') 5px center no-repeat;
+  }
+  .subscribe-pitch h3 {
+    margin: 0 0 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #222;
+    text-transform: uppercase;
+  }
+  
+  .subscribe-pitch p {
+    line-height: 22px;
+    color: #484848;
+  }
+  
+  .subscribe-form {
+    position: relative;
+    margin: 20px -20px -20px;
+    padding: 15px;
+    background: #fafafa;
+    border-top: 1px solid #ccc;
+    border-radius: 0 0 6px 6px;
+    background-image: -webkit-linear-gradient(top, #fafafa, #eaeaea 50%, #e1e1e1 51%, #f2f2f2);
+    background-image: -moz-linear-gradient(top, #fafafa, #eaeaea 50%, #e1e1e1 51%, #f2f2f2);
+    background-image: -o-linear-gradient(top, #fafafa, #eaeaea 50%, #e1e1e1 51%, #f2f2f2);
+    background-image: linear-gradient(to bottom, #fafafa, #eaeaea 50%, #e1e1e1 51%, #f2f2f2);
+    -webkit-box-shadow: inset 0 1px white;
+    box-shadow: inset 0 1px white;
+  }
+  
+  .subscribe-input {
+    padding: 0 16px;
+    width: 276px;
+    height: 33px;
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    font-size: 15px;
+    color: #444;
+    background: #fefefe;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #999 #aaa #aaa;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px #f8f8f8;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px #f8f8f8;
+  }
+  
+  .subscribe-input:focus{
+    outline:0;
+  }
+  .subscribe-submit {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding-left: 15px;
+    height: 35px;
+    width: 60px;
+    background: #60e160;
+    border: 1px solid;
+    border-color: #4c9d50 #4c9d50 #4c9d50 #55af5a;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(top, #84f087, #4cd94a);
+    background-image: -moz-linear-gradient(top, #84f087, #4cd94a);
+    background-image: -o-linear-gradient(top, #84f087, #4cd94a);
+    background-image: linear-gradient(to bottom, #84f087, #4cd94a);
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.4);
+  }
+  .subscribe-submit:active{
+    background: #4cdf4d;
+    @include box-shadow(inset 0 0 3px rgba(black, .3));
+  }
+  .subscribe-submit:before{
+    content: '';
+    display: block;
+    margin-top: 1px;
+    width: 25px;
+    height: 19px;
+    background: url('http://s3.cssflow.com/snippets/33-newsletter-form/img/tick.png');
+    
+  }
+  
+  .lt-ie9 .subscribe-input {
+    line-height: 33px;
+  }

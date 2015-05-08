@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Kalorije
+  </title>
+  <meta name="description" content="">
+  <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" type="text/css" title="v1" href="style1.css">
+  <link rel="alternate stylesheet" type="text/css" title="v2" href="style2.css">
+  <link rel="alternate stylesheet" type="text/css" title="v3" href="style3.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+  </script>
+ <script type="text/javascript" src="menja.js"> 
+  </script>
+  <script>
+    $(document).ready(function() {
+      $.get("navigacija.html", function(data) {
+        $("#nav").html(data);
+      }
+           );
+      $.get("footer.html", function(data) {
+        $("#footer").html(data);
+      }
+           );
+    }
+                     );
+  </script>
+</head>
+
+<body onload="checkCookie()" id="index" class="home">
+  <header class='container' id='header'>
+    <a id="Logo" href='index.html'>
+      S-blog
+    </a>
+  </header>
+  
+  <nav class='container zaobljenaIvica' id='nav'>
+  </nav>
+  
+  <section class='container senkaKutije clanak' id='main'>
+    <div class='container_one'>
+      <header>
+        <h1 style="text-align: center; font-size:42px;">
+          <a>
+            Kalorije
+          </a>
+        </h1>
+      </header>
+      <p class="text">
+        <table id="tabela" border="1" style=" margin: auto; width: 90%; border: solid;">
+          <tr>
+            <th rowspan="2" class="prvaKolona">
+              Br.
+            </th>
+            <th rowspan="2">
+              Namirnice
+            </th>
+            <th colspan="5">
+              Vrednost
+            </th>
+            <th rowspan="2">
+              Kategorija
+            </th>
+          </tr>
+          <tr style="border-bottom: solid;">
+            <td>
+              kcal
+            </td>
+            <td>
+              kJ
+            </td>
+            <td>
+              UH
+            </td>
+            <td>
+              Proteini
+            </td>
+            <td>
+              Masti
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              1
+            </td>
+            <td>
+              Ananas
+            </td>
+            <td>
+              48
+            </td>
+            <td>
+              201
+            </td>
+            <td>
+              12,63
+            </td>
+            <td>
+              0,54
+            </td>
+            <td>
+              0,12
+            </td>
+            <td>
+              Voce
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              2
+            </td>
+            <td>
+              Belo Vino
+            </td>
+            <td>
+              68
+            </td>
+            <td>
+              284
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0,1
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              Pica
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              3
+            </td>
+            <td>
+              Belance kokosije
+            </td>
+            <td>
+              52
+            </td>
+            <td>
+              217
+            </td>
+            <td>
+              0,73
+            </td>
+            <td>
+              10,90
+            </td>
+            <td>
+              0,17
+            </td>
+            <td>
+              Jaja
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              4
+            </td>
+            <td>
+              Borovnice
+            </td>
+            <td>
+              57
+            </td>
+            <td>
+              238
+            </td>
+            <td>
+              14,49
+            </td>
+            <td>
+              0,74
+            </td>
+            <td>
+              0,33
+            </td>
+            <td>
+              Voce
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              5
+            </td>
+            <td>
+              Bomboni vocni
+            </td>
+            <td>
+              292
+            </td>
+            <td>
+              1221
+            </td>
+            <td>
+              73
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              Slatkisi
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              6
+            </td>
+            <td>
+              Bubrezi svinjski
+            </td>
+            <td>
+              90
+            </td>
+            <td>
+              376
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              16,3
+            </td>
+            <td>
+              2,7
+            </td>
+            <td>
+              Meso
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              7
+            </td>
+            <td>
+              Celer list
+            </td>
+            <td>
+              12
+            </td>
+            <td>
+              50
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              1
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              Povrce,Zacini
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              8
+            </td>
+            <td>
+              Ulje haringe
+            </td>
+            <td>
+              904
+            </td>
+            <td>
+              3782,3
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              100
+            </td>
+            <td>
+              Masnoce
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              9
+            </td>
+            <td>
+              Kostana srz
+            </td>
+            <td>
+              849
+            </td>
+            <td>
+              3549
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              3,2
+            </td>
+            <td>
+              89,9
+            </td>
+            <td>
+              Meso
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              10
+            </td>
+            <td>
+              Margarin
+            </td>
+            <td>
+              730
+            </td>
+            <td>
+              3051
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0,1
+            </td>
+            <td>
+              81
+            </td>
+            <td>
+              Masnoce
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              11
+            </td>
+            <td>
+              Kikiriki puter
+            </td>
+            <td>
+              588
+            </td>
+            <td>
+              2460,2
+            </td>
+            <td>
+              19,68
+            </td>
+            <td>
+              25
+            </td>
+            <td>
+              50,32
+            </td>
+            <td>
+              Umaci
+            </td>
+          </tr>
+          <tr>
+            <td class="prvaKolona">
+              12
+            </td>
+            <td>
+              Pepsi light (dietalna)
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              Pica
+            </td>
+          </tr>
+      </table>
+      <a href="http://www.tablicakalorija.com/" target="_top" style="float:right;">
+        Vise na Tablica Kalorija
+      </a>
+    </p>
+    <p style="margin-top: 50px;">
+      <a href="http://www.tablicakalorija.com/bmr-kalkulator.html" target="fkalorije">
+        <img src="http://www.tablicakalorija.com/wp-content/uploads/2013/08/bmrkalkulator.png"
+        alt="BMR Kalkulator">
+      </a>
+      <a href="http://www.tablicakalorija.com/tdee-kalkulator.html" target="fkalorije">
+        <img src="http://www.tablicakalorija.com/wp-content/uploads/2013/08/tdeekalkulator.png"
+        alt="TDEE Kalkulator">
+      </a>
+      <a href="http://www.tablicakalorija.com/raspodjela-obroka-u-kalorijama.html" target="fkalorije">
+        <img src="http://www.tablicakalorija.com/wp-content/uploads/2014/03/podjela-po-obrocima.png"
+        alt="Raspodjela dnevnog unosa kalorija po obrocima">
+      </a>
+    </br>
+  <a href="http://www.tablicakalorija.com/bmi-kalkulator.html" target="fkalorije">
+    <img src="http://www.tablicakalorija.com/wp-content/uploads/2013/08/bmikalkulator.png"
+    alt="BMI Kalkulator">
+  </a>
+  <a href="http://www.tablicakalorija.com/kalorije-aktivnosti.html" target="fkalorije">
+    <img src="http://www.tablicakalorija.com/wp-content/uploads/2013/08/pregled-potrosnje-aktivnosti.png"
+    alt="Potrošnja kalorija po aktivnostima">
+  </a>
+</p>
+<p>
+  <iframe src="http://www.tablicakalorija.com/kalorije-aktivnosti.html" name="fkalorije"
+  style="height: 500px;  width: 100%; border: 0;">
+    <p>
+      Vas browser ne podrzava iframe!
+    </p>
+  </iframe>
+</p>
+
+</div>
+</section>
+
+<footer id='footer'>
+  
+</footer>
+
+
+</body>
+
+</html>

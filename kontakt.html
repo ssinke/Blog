@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Kontakt
+  </title>
+  <meta name="description" content="">
+  <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" type="text/css" title="v1" href="style1.css">
+  <link rel="alternate stylesheet" type="text/css" title="v2" href="style2.css">
+  <link rel="alternate stylesheet" type="text/css" title="v3" href="style3.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="menja.js"> 
+  </script>
+  <script>
+    $(document).ready(function() {
+      $.get("navigacija.html", function(data) {
+        $("#nav").html(data);
+      }
+           );
+      $.get("footer.html", function(data) {
+        $("#footer").html(data);
+      }
+           );
+    }
+                     );
+  </script>
+</head>
+
+<body onload="checkCookie()" id="index" class="home">
+  <header class='container' id='header'>
+    <a id="Logo" href='index.html'>
+      S-blog
+    </a>
+  </header>
+  
+  <nav class='container zaobljenaIvica' id='nav'>
+  </nav>
+  
+  <section class='container senkaKutije clanak' id='main'>
+    <div class='container_one'>
+      <header>
+        <h1 style="text-align: center; font-size:42px;">
+          <a>
+            Povratne informacije!
+          </a>
+        </h1>
+      </header>
+      <p class="text">
+        <form>
+          <fieldset bgcolor="0FF000" style="padding: 14px;">
+            <legend>
+              Vase misljenje o mom blogu
+            </legend>
+            Vase ime:
+          </br>
+          <input type="text" name="Ime">
+      </br>
+      Vase prezime:
+    </br>
+    <input type="text" name="prezime">
+  </br>
+  Godina rodjenja:
+  <br>
+  <input type="date" name="godiste">
+</br>
+Email:
+</br>
+<input type="text" name="email">
+</br>
+</br>
+</br>
+Koliko cesto posecujete blog?
+</br>
+<input type="number" name="cesto">
+puta
+</br>
+</br>
+Da li cete ponovo posetiti blog?
+</br>
+<input type="radio" name="da" value="da">
+Da
+<input type="radio" name="ne" value="ne" checked="">
+Ne
+</br>
+</br>
+Koliko Vam se svideo moj blog?
+</br>
+<input type="checkbox" name="odlicno">
+Odlican
+<input type="checkbox" name="nije lose">
+Nije los
+<input type="checkbox" name="bolji">
+Postoje i bolji sajtovi
+<input type="checkbox" name="ne">
+Ne svidja mi se
+</br>
+</br>
+Koji vam se deo najvise svideo:
+</br>
+<input type="radio" name="informacije">
+Informacije
+</br>
+<input type="radio" name="sadrzaj">
+Sadrzaj
+</br>
+<input type="radio" name="izgled">
+Izgled
+</br>
+<input type="radio" name="tacnost">
+Tacnost
+</br>
+</br>
+Ocenite nas na skali od 1 do 10?
+</br>
+<input type="number" name="num" value="10">
+</br>
+</br>
+Komentar:
+</br>
+<textarea name="komentar" cols="100" rows="10" style=" width: 368; height: 264px;">
+  Ovde pisite ako imate nesto da dodate
+</textarea>
+</br>
+</br>
+</fieldset>
+</br>
+<input type="submit" value="Posalji">
+</form>
+</p>
+</div>
+</section>
+
+<footer  id='footer'>
+  
+</footer>
+
+
+</body>
+
+</html>

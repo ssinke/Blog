@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>
+    Muzika
+  </title>
+  <meta name="description" content="">
+  <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" type="text/css" title="v1" href="style1.css">
+  <link rel="alternate stylesheet" type="text/css" title="v2" href="style2.css">
+  <link rel="alternate stylesheet" type="text/css" title="v3" href="style3.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="menja.js"> 
+  </script>
+  <script>
+	$(document).ready(function(){
+      
+      $.get("navigacija.html", function(data) {
+        $("#nav").html(data);
+      }
+           );
+      
+      $("#isidebar").load("pocetna.html #sidebar");
+      
+      $.get("footer.html", function(data) {
+        $("#footer").html(data);
+      }
+           );
+	}
+                     );
+      
+  </script>
+</head>
+<body onload="checkCookie()" id="index" class="home">
+  <header class='container' id='header'>
+    <a id="Logo" href='index.html'>
+      S-blog
+    </a>
+  </header>
+  
+  <nav class='container zaobljenaIvica' id='nav'>
+  </nav>
+  
+  <section class='container' id='main'>
+    <section id='content'>
+      <article class='senkaKutije'>
+        <header>
+          <h2>
+            <a href='#'>
+              David Guetta Miami Ultra Music Festival 2014
+            </a>
+          </h2>
+        </header>
+        <p title="Guetta">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/P2x3-b6JEj8" frameborder="0" allowfullscreen>
+          </iframe>
+        </p>
+        
+      </article>
+      
+      <article class='senkaKutije'>
+        <header>
+          <h2>
+            <a href='#'>
+              Dimitri Vegas & Like Mike - Tomorrowland 2014
+            </a>
+          </h2>
+        </header>
+        <p title="Tomorrowland">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xg7sptEx0Ms" frameborder="0" allowfullscreen>
+          </iframe>
+        </p>
+        
+      </article>
+      
+      <article id="hardwell" class='senkaKutije'>
+        <header>
+          <h2>
+            <a href='#'>
+              Hardwell - Tomorrowland 2014
+            </a>
+          </h2>
+        </header>
+        <p title="Tomorrowland">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/eBZjZ6eAzMw" frameborder="0" allowfullscreen>
+          </iframe>
+        </p>
+        
+      </article>
+    </section>
+    
+    <div id="isidebar">
+      
+    </div>
+  </section>
+  
+  <footer  id='footer'>
+  </footer>
+  
+  
+</body>
+</html>

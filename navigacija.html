@@ -1,0 +1,23 @@
+<script>
+$("document").ready(function($){
+    var nav = $('#nav');
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 135) {
+            nav.addClass("fix-nav");
+			nav.removeClass("zaobljenaIvica");
+        } else {
+            nav.removeClass("fix-nav");
+			nav.addClass("zaobljenaIvica");
+        }
+    });
+});
+</script>
+<ul>
+		<li id="pocetna"><a href='index.html'>Pocetna</a></li>
+		<li id="sport"><a href='sport.html'>Sport</a></li>
+		<li id="muzika"><a href='muzika.html'>Muzika</a></li>
+		<li id="tehnologija"><a href='tehnologija.html'>Tehnologija</a></li>
+		<li id="kalorije"><a href='kalorije.html'>Kalorije</a></li>
+		<li id="kontakt"><a href='kontakt.html'>Kontakt</a></li>
+</ul>
